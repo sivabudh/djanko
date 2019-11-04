@@ -1,12 +1,11 @@
 from django_nameko_standalone import DjangoModels
-from nameko.events import EventDispatcher, event_handler
+from nameko.events import event_handler
 from nameko.rpc import rpc
 
 
 class NamekoService:
     name = "nameko_service"
     models = DjangoModels()
-
 
     @rpc
     def search(self, search_text):
