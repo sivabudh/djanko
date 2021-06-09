@@ -1,7 +1,7 @@
 amqp==2.5.1
 certifi==2019.9.11
 chardet==3.0.4
-Django==2.2.4
+Django==2.2.22
 django-nameko-standalone==1.2.2
 dnspython==1.16.0
 eventlet==0.25.1
